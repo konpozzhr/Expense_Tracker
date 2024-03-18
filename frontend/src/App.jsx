@@ -5,14 +5,18 @@ import IncomeExpense from './components/IncomeExpense';
 import TransactionList from './components/TransactionList';
 import AddTransaction from './components/AddTransaction';
 import './App.css'
+import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
   const [count, setCount] = useState(0)
+
+  
 
   return (
     <>
       <div>
         <Header />
+        
         <div className="container">
           <Balance />
           <IncomeExpense />
@@ -20,6 +24,7 @@ function App() {
           <AddTransaction />
         </div>
       </div>
+      
     </>
   )
 }

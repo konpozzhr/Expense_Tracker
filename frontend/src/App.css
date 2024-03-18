@@ -21,7 +21,7 @@ body {
 
 .container {
   margin: 30px auto;
-  width: 350px;
+  width: 500px;
 }
 
 h1 {
@@ -159,6 +159,24 @@ input[type='number'] {
 
 
 
+
+
+
+
+.scrollable-container {
+  max-height: 400px; /* Set the maximum height of the container */
+  overflow-y: auto; /* Enable vertical scrollbar when content exceeds container height */
+}
+
+.scrollable-container ul {
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  list-style-type: none; /* Remove default list styling */
+}
+
+.scrollable-container li {
+  padding: 8px 16px; /* Add padding to list items */
+}
 
 
 
